@@ -96,7 +96,7 @@ const renderHTML = (titles) => {
   `;
 };
 
-// Start Server
+
 app.listen(PORT, () => {
   console.log(`✅ Promise-based Server is running on http://localhost:${PORT}`);
 });

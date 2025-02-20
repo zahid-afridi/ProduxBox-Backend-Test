@@ -41,7 +41,7 @@ const fetchTitle = async (address) => {
   });
 };
 
-// 🏠 Default Route for Testing
+//Default Route for Testing
 app.get("/", (req, res) => {
   res.send(`
     <h1>Welcome to the Async/Await Server!</h1>
@@ -85,7 +85,7 @@ const renderHTML = (titles) => {
   `;
 };
 
-// Start Express Server
+
 app.listen(PORT, () => {
   console.log(`✅ Async/Await Server is running on http://localhost:${PORT}`);
 });

@@ -33,7 +33,7 @@ const fetchTitle = (address) => {
       let data = "";
 
       res.on("data", (chunk) => {
-        data += chunk; // Stream data chunks
+        data += chunk; 
       });
 
       res.on("end", () => {
@@ -47,7 +47,7 @@ const fetchTitle = (address) => {
   });
 };
 
-// 🏠 Default Route
+// Default Route
 app.get("/", (req, res) => {
   res.send(`
     <h1>Welcome to the Stream-based Server!</h1>
@@ -97,7 +97,7 @@ app.get("/I/want/title", async (req, res) => {
   res.end();
 });
 
-// Start Server
+
 app.listen(PORT, () => {
   console.log(`✅ Stream-based Server is running on http://localhost:${PORT}`);
 });
