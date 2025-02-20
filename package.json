@@ -1,0 +1,16 @@
+{
+  "name": "productbox-test",
+  "version": "1.0.0",
+  "description": "A Node.js test project implementing different control flow strategies.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.3"
+  }
+}
