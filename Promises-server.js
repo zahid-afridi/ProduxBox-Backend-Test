@@ -47,7 +47,7 @@ const fetchTitle = (address) => {
   });
 };
 
-// 🏠 Default Route
+//  Default Route
 app.get("/", (req, res) => {
   res.send(`
     <h1>Welcome to the Promise-based Server!</h1>
@@ -98,7 +98,7 @@ const renderHTML = (titles) => {
 
 
 app.listen(PORT, () => {
-  console.log(`✅ Promise-based Server is running on http://localhost:${PORT}`);
+  console.log(` Promise-based Server is running on http://localhost:${PORT}`);
 });
 
 export default app;

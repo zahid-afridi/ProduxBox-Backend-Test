@@ -97,7 +97,7 @@ const renderHTML = (titles) => {
 
 // Start Express Server
 app.listen(PORT, () => {
-  console.log(`✅ Callback-based Server is running on http://localhost:${PORT}`);
+  console.log(` Callback-based Server is running on http://localhost:${PORT}`);
 });
 
 export default app;

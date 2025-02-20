@@ -99,7 +99,7 @@ app.get("/I/want/title", async (req, res) => {
 
 
 app.listen(PORT, () => {
-  console.log(`✅ Stream-based Server is running on http://localhost:${PORT}`);
+  console.log(` Stream-based Server is running on http://localhost:${PORT}`);
 });
 
 export default app;
