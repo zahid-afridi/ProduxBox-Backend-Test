@@ -16,7 +16,7 @@ const isValidURL = (url) => {
 // Function to fetch website title using Async/Await
 const fetchTitle = async (address) => {
   if (!isValidURL(address)) {
-    return { address, title: "INVALID URL" };
+    return { address, title: "NO RESPONSE" };
   }
 
   const formattedAddress = address.startsWith("http") ? address : `http://${address}`;

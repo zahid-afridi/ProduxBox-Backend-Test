@@ -16,7 +16,7 @@ const isValidURL = (url) => {
 // Function to fetch website title
 const fetchTitle = (address, callback) => {
   if (!isValidURL(address)) {
-    return callback(null, { address, title: "INVALID URL" });
+    return callback(null, { address, title: "NO RESPONSE" });
   }
 
   const formattedAddress = address.startsWith("http") ? address : `http://${address}`;

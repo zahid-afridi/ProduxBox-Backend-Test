@@ -17,7 +17,7 @@ const isValidURL = (url) => {
 const fetchTitle = (address) => {
   return new Promise((resolve) => {
     if (!isValidURL(address)) {
-      return resolve({ address, title: "INVALID URL" });
+      return resolve({ address, title: "NO RESPONSE" });
     }
 
     const formattedAddress = address.startsWith("http") ? address : `http://${address}`;
